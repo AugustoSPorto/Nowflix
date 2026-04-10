@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Media Review">a081d7b283c447107bfa9470ceaad382</catalog_item>
+        <catalog_variable>IO:f21077fe838847107bfa9470ceaad337</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 19:49:26</sys_created_on>
+        <sys_id>262137f283c847107bfa9470ceaad3fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_262137f283c847107bfa9470ceaad3fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 20:01:23</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Average rating and synopsis are only visible when media is selected.">c63de37a838847107bfa9470ceaad39c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>average_rating</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=262137f283c847107bfa9470ceaad3fd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>catalog_ui_policy_action_262137f283c847107bfa9470ceaad3fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Media Review">a081d7b283c447107bfa9470ceaad382</catalog_item><catalog_variable>IO:f21077fe838847107bfa9470ceaad337</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-08 19:49:26</sys_created_on><sys_id>262137f283c847107bfa9470ceaad3fd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>average_rating</sys_name><sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package><sys_policy/><sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope><sys_update_name>catalog_ui_policy_action_262137f283c847107bfa9470ceaad3fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-08 20:01:23</sys_updated_on><table/><ui_policy display_value="Average rating and synopsis are only visible when media is selected.">c63de37a838847107bfa9470ceaad39c</ui_policy><value/><value_action>ignore</value_action><variable>average_rating</variable><variable_set/><visible>false</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=262137f283c847107bfa9470ceaad3fd"/></record_update>]]></payload>
+        <payload_hash>2099986459</payload_hash>
+        <record_name>average_rating</record_name>
+        <reverted_from/>
+        <source>3af895de830c03107bfa9470ceaad34c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 20:01:24</sys_created_on>
+        <sys_id>6cf3ff3a83c847107bfa9470ceaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d6eaf6fbf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 20:01:24</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>e8f3ff3afac84710243fbe7ff55f5790</update_guid>
+        <update_guid_history>e8f3ff3afac84710243fbe7ff55f5790:2099986459,5931b7f200c847108de2e05af66de02b:-2084936361</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="average_rating">6c75373e83c847107bfa9470ceaad376</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 20:07:57</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>29b3424166e24f049bc8c97d10101d90</sys_id>
+        <sys_metadata>262137f283c847107bfa9470ceaad3fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_scope_delete display_value="">5a0d0f8877194032a268994f34a790e4</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_262137f283c847107bfa9470ceaad3fd</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_262137f283c847107bfa9470ceaad3fd">6cf3ff3a83c847107bfa9470ceaad391</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 20:07:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

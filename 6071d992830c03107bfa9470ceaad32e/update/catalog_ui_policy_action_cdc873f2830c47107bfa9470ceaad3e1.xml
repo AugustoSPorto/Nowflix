@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Review">a081d7b283c447107bfa9470ceaad382</catalog_item>
+        <catalog_variable>IO:9257bbbe83c847107bfa9470ceaad3da</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 20:22:45</sys_created_on>
+        <sys_id>cdc873f2830c47107bfa9470ceaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_cdc873f2830c47107bfa9470ceaad3e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 20:22:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show movie data when media is selected.">c63de37a838847107bfa9470ceaad39c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>poster</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=cdc873f2830c47107bfa9470ceaad3e1"/>
+</record_update>
