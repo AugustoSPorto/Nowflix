@@ -36,8 +36,13 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${opened_by.first_name},</p>
-<p>Your review for ${media.title}&nbsp; is&nbsp; ${state}!!</p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}</p>
+<p>Thank you for your review for the ${media.type} ${media.title}.</p>
+<p>It is <strong>Approved.</strong></p>
+<p><img style="width: 300px;" src="${media.poster}"></p>
+<p>If you want to send more reviews, click <a href="/sp?id=sc_cat_item&amp;sys_id=8bd0137a83888710ad5c9796feaad316">here</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Review Approved</name>
@@ -59,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dc27b16f83c48b107bfa9470ceaad350</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Review Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
@@ -67,7 +72,7 @@
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_update_name>sysevent_email_action_dc27b16f83c48b107bfa9470ceaad350</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-10 19:22:09</sys_updated_on>
+        <sys_updated_on>2026-04-13 13:25:47</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
