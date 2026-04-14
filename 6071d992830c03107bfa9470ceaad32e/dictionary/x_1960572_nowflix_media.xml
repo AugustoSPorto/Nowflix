@@ -4,12 +4,13 @@
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
-                <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="3"/>
             </choice>
         </element>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element label="Production" max_length="250" name="production" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
