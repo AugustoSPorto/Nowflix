@@ -22,7 +22,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-08 19:24:33</sys_updated_on>
         <table/>
-        <ui_policy display_value="Mandatory fields.">00ea63b6838847107bfa9470ceaad3a8</ui_policy>
+        <ui_policy display_value="Mandatory review fields.">00ea63b6838847107bfa9470ceaad3a8</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <variable>media</variable>

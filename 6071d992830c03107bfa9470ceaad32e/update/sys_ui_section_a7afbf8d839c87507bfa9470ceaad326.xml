@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Suggestion" section_id="a7afbf8d839c87507bfa9470ceaad326" sys_domain="global" table="x_1960572_nowflix_suggestion" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:00</sys_created_on>
+            <sys_id>abafbf8d839c87507bfa9470ceaad32a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">6dee77c9839c87507bfa9470ceaad391</sys_ui_formatter>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:00</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:00</sys_created_on>
+            <sys_id>67afbf8d839c87507bfa9470ceaad377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:00</sys_created_on>
+            <sys_id>f3afbf8d839c87507bfa9470ceaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>73afbf8d839c87507bfa9470ceaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>ffafbf8d839c87507bfa9470ceaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>7fafbf8d839c87507bfa9470ceaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>fbafbf8d839c87507bfa9470ceaad37b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>release_year</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>7bafbf8d839c87507bfa9470ceaad37c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>f7afbf8d839c87507bfa9470ceaad37d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>77afbf8d839c87507bfa9470ceaad37e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>f3afbf8d839c87507bfa9470ceaad37f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reproval_reason</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:01</sys_created_on>
+            <sys_id>73afbf8d839c87507bfa9470ceaad380</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Suggestion" display_value="Suggestion" name="x_1960572_nowflix_suggestion" sys_domain="global" view="Default view">a7afbf8d839c87507bfa9470ceaad326</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Suggestion</caption>
+            <header>false</header>
+            <name>x_1960572_nowflix_suggestion</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 20:39:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7afbf8d839c87507bfa9470ceaad326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1960572_nowflix_suggestion</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+            <sys_update_name>sys_ui_section_a7afbf8d839c87507bfa9470ceaad326</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 20:39:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
