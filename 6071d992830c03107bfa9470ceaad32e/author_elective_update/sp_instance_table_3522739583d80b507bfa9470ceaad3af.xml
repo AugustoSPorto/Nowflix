@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field/>
+        <field_list>title,type,release_year</field_list>
+        <filter table="x_1960572_nowflix_media">title is not empty<item endquery="false" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>film</glyph>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">22a2731983d80b507bfa9470ceaad32e</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:18:22</sys_created_on>
+        <sys_id>3522739583d80b507bfa9470ceaad3af</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>NOWFLIX CATALOG</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>sp_instance_table_3522739583d80b507bfa9470ceaad3af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:37:43</sys_updated_on>
+        <table>x_1960572_nowflix_media</table>
+        <title>NOWFLIX CATALOG</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=3522739583d80b507bfa9470ceaad3af"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>sp_instance_table_3522739583d80b507bfa9470ceaad3af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>primary</color><css/><display_field/><field_list>title,type,release_year</field_list><filter table="x_1960572_nowflix_media">title is not empty<item endquery="false" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><glyph>film</glyph><id/><maximum_entries>20</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">22a2731983d80b507bfa9470ceaad32e</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 14:18:22</sys_created_on><sys_id>3522739583d80b507bfa9470ceaad3af</sys_id><sys_mod_count>14</sys_mod_count><sys_name>NOWFLIX CATALOG</sys_name><sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package><sys_policy/><sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope><sys_update_name>sp_instance_table_3522739583d80b507bfa9470ceaad3af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 14:37:43</sys_updated_on><table>x_1960572_nowflix_media</table><title>NOWFLIX CATALOG</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=3522739583d80b507bfa9470ceaad3af"/></record_update>]]></payload>
+        <payload_hash>-1503574014</payload_hash>
+        <record_name>NOWFLIX CATALOG</record_name>
+        <reverted_from/>
+        <source>3af895de830c03107bfa9470ceaad34c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:37:43</sys_created_on>
+        <sys_id>cd96ffdd83d80b507bfa9470ceaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d96b9f7530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:37:43</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>4d96ffdd31d80b50887d045db310507c</update_guid>
+        <update_guid_history>4d96ffdd31d80b50887d045db310507c:-1503574014,aa76f39dd2d80b5023ce05ba19a6c8f0:304701959,06a5f39d4fd80b50b6af16717c07f845:-1370385825,6035b35d19d80b5067adf8246cae65d1:-1924522655,2c25335d19d80b507ccef2e3525d7cf0:1318214368,4515335dc8d80b50b1cd3b73ffb1e7e9:442300151,8815335deed80b5011406746496ebe0a:-1370385825,88c4b31d1dd80b50645959af35f303a3:-1791073250,19a43f991bd80b50f5d950a3e49172b2:-2035900418,6684bfd9bbd80b503459de377f8df740:1324175307,b1643f99c0d80b507e2b98f79a694a8b:-1181386890,14b2b31931d80b50f0de1274b3cf3e04:-785529805,2e72bbd53ad80b503cc856df89f3e6ad:1317530005,b552b7d556d80b505c597a30c74d0c7e:1613036649,312233d532d80b50edc0e2e3062c4f6b:-1211822896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NOWFLIX CATALOG">53c6b711831c0b507bfa9470ceaad398</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:38:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>61d40991a3dc42ecb3ec1aeba766aa61</sys_id>
+        <sys_metadata>3522739583d80b507bfa9470ceaad3af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOWFLIX CATALOG</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_scope_delete display_value="">5a0d0f8877194032a268994f34a790e4</sys_scope_delete>
+        <sys_update_name>sp_instance_table_3522739583d80b507bfa9470ceaad3af</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_3522739583d80b507bfa9470ceaad3af">cd96ffdd83d80b507bfa9470ceaad37d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:38:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

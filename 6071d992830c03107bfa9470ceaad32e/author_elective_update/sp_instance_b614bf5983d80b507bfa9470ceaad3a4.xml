@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1cefe39183d80b507bfa9470ceaad3b3</sp_column>
+        <sp_widget display_value="Employee Center Image Editor">a5fc243277b501104cdac0c23e5a9993</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:26:54</sys_created_on>
+        <sys_id>b614bf5983d80b507bfa9470ceaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>sp_instance_b614bf5983d80b507bfa9470ceaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:26:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b614bf5983d80b507bfa9470ceaad3a4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>sp_instance_b614bf5983d80b507bfa9470ceaad3a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">1cefe39183d80b507bfa9470ceaad3b3</sp_column><sp_widget display_value="Employee Center Image Editor">a5fc243277b501104cdac0c23e5a9993</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 14:26:54</sys_created_on><sys_id>b614bf5983d80b507bfa9470ceaad3a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package><sys_policy/><sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope><sys_update_name>sp_instance_b614bf5983d80b507bfa9470ceaad3a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 14:26:54</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=b614bf5983d80b507bfa9470ceaad3a4"/></record_update>]]></payload>
+        <payload_hash>-749729949</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3af895de830c03107bfa9470ceaad34c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:26:54</sys_created_on>
+        <sys_id>b614bf5983d80b507bfa9470ceaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d96b012a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:26:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>b214bf5964d80b503735f9ef19ee67a7</update_guid>
+        <update_guid_history>b214bf5964d80b503735f9ef19ee67a7:-749729949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">392433d983d80b507bfa9470ceaad369</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:27:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1f86b2aff9ce47f6974e387b46750669</sys_id>
+        <sys_metadata>b614bf5983d80b507bfa9470ceaad3a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_scope_delete display_value="">5a0d0f8877194032a268994f34a790e4</sys_scope_delete>
+        <sys_update_name>sp_instance_b614bf5983d80b507bfa9470ceaad3a4</sys_update_name>
+        <sys_update_version display_value="sp_instance_b614bf5983d80b507bfa9470ceaad3a4">b614bf5983d80b507bfa9470ceaad3a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:27:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
