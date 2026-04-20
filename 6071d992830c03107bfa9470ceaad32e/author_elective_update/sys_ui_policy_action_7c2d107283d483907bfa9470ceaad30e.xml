@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>type</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-20 14:38:40</sys_created_on>
+        <sys_id>7c2d107283d483907bfa9470ceaad30e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>type</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7c2d107283d483907bfa9470ceaad30e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-20 14:39:46</sys_updated_on>
+        <table>x_1960572_nowflix_media</table>
+        <ui_policy display_value="Mandatory Media fields.">f0ac903283d483907bfa9470ceaad381</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=7c2d107283d483907bfa9470ceaad30e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>sys_ui_policy_action_7c2d107283d483907bfa9470ceaad30e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>type</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-20 14:38:40</sys_created_on><sys_id>7c2d107283d483907bfa9470ceaad30e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>type</sys_name><sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package><sys_policy/><sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope><sys_update_name>sys_ui_policy_action_7c2d107283d483907bfa9470ceaad30e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-20 14:39:46</sys_updated_on><table>x_1960572_nowflix_media</table><ui_policy display_value="Mandatory Media fields.">f0ac903283d483907bfa9470ceaad381</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=7c2d107283d483907bfa9470ceaad30e"/></record_update>]]></payload>
+        <payload_hash>-167512213</payload_hash>
+        <record_name>type</record_name>
+        <reverted_from/>
+        <source>3af895de830c03107bfa9470ceaad34c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-20 14:39:46</sys_created_on>
+        <sys_id>8e6d587283d483907bfa9470ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dab554a010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-20 14:39:46</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>0e6d5872ccd48390851c2b9f3a0fe33a</update_guid>
+        <update_guid_history>0e6d5872ccd48390851c2b9f3a0fe33a:-167512213,4a2d5472f1d48390eb616246cfcda312:-1596687441</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-20 14:42:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1502978f8fc04aeaa191f1c3c328ba64</sys_id>
+        <sys_metadata>7c2d107283d483907bfa9470ceaad30e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>type</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_parent display_value="Mandatory Media fields.">f0ac903283d483907bfa9470ceaad381</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_scope_delete display_value="">5a0d0f8877194032a268994f34a790e4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7c2d107283d483907bfa9470ceaad30e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7c2d107283d483907bfa9470ceaad30e">8e6d587283d483907bfa9470ceaad33b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-20 14:42:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

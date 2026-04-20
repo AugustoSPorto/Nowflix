@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.integration_state ==  3 &amp;&amp; current.state == 1  &amp;&amp; ( gs.hasRole("x_1921407_nowflix.administrator")  ||  gs.hasRole("x_1921407_nowflix.moderator"))</condition>
+        <condition>current.state.toString() == "1" &amp;&amp; current.integration_state.toString() == "3" &amp;&amp; gs.hasRole("x_1921407_nowflix.administrator")  &amp;&amp; gs.hasRole("x_1921407_nowflix.moderator")</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -44,7 +44,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65a65ced83dc0b507bfa9470ceaad3f6</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
@@ -52,7 +52,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_update_name>sys_ui_action_65a65ced83dc0b507bfa9470ceaad3f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-16 19:12:12</sys_updated_on>
+        <sys_updated_on>2026-04-17 16:20:37</sys_updated_on>
         <table>x_1960572_nowflix_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

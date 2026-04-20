@@ -2,7 +2,11 @@
     <sys_ui_list_control action="INSERT_OR_UPDATE">
         <columns_condition/>
         <disable_nlq>false</disable_nlq>
-        <edit_condition><![CDATA[answer = (parent.state == 3);]]></edit_condition>
+        <edit_condition><![CDATA[answer = false;
+
+if(parent.state.toString()  !== "1"){
+	answer = true;
+}]]></edit_condition>
         <edit_default_filter/>
         <edit_roles/>
         <empty_condition/>
@@ -16,7 +20,11 @@
         <list_edit_ref_qual_tag/>
         <list_edit_type>disabled</list_edit_type>
         <name>x_1960572_nowflix_media</name>
-        <new_condition><![CDATA[answer = (parent.state == 3);]]></new_condition>
+        <new_condition><![CDATA[answer = false;
+
+if(parent.state.toString()  !== "1"){
+	answer = true;
+}]]></new_condition>
         <new_roles/>
         <omit_columns_if_empty>false</omit_columns_if_empty>
         <omit_count>false</omit_count>
@@ -36,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>952cb82d83144b507bfa9470ceaad349</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>x_1960572_nowflix_media</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
@@ -44,6 +52,6 @@
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_update_name>sys_ui_list_control_952cb82d83144b507bfa9470ceaad349</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-16 19:53:34</sys_updated_on>
+        <sys_updated_on>2026-04-20 14:20:36</sys_updated_on>
     </sys_ui_list_control>
 </record_update>

@@ -9,7 +9,7 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>100</order>
+        <order>50</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -19,23 +19,23 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>M2M not editable when media completed</short_description>
+        <short_description>Mandatory Media fields.</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-16 19:33:13</sys_created_on>
+        <sys_created_on>2026-04-20 14:36:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>48d9b02983144b507bfa9470ceaad3c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>M2M not editable when media completed</sys_name>
+        <sys_id>f0ac903283d483907bfa9470ceaad381</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Mandatory Media fields.</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
-        <sys_update_name>sys_ui_policy_48d9b02983144b507bfa9470ceaad3c2</sys_update_name>
+        <sys_update_name>sys_ui_policy_f0ac903283d483907bfa9470ceaad381</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-16 19:33:13</sys_updated_on>
-        <table>x_1960572_nowflix_actor</table>
+        <sys_updated_on>2026-04-20 15:01:59</sys_updated_on>
+        <table>x_1960572_nowflix_media</table>
         <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>
