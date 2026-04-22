@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1960572_nowflix.NowflixUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>NowflixUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script/>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 14:35:44</sys_created_on>
+        <sys_id>a48fae178314c7907bfa9470ceaad35d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>NowflixUtils</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>sys_script_include_a48fae178314c7907bfa9470ceaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 16:18:00</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>sys_script_include_a48fae178314c7907bfa9470ceaad35d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include"><sys_script_include action="INSERT_OR_UPDATE"><access>public</access><active>true</active><api_name>x_1960572_nowflix.NowflixUtils</api_name><caller_access/><client_callable>false</client_callable><description/><mobile_callable>false</mobile_callable><name>NowflixUtils</name><sandbox_callable>false</sandbox_callable><script/><sys_class_name>sys_script_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-22 14:35:44</sys_created_on><sys_id>a48fae178314c7907bfa9470ceaad35d</sys_id><sys_mod_count>6</sys_mod_count><sys_name>NowflixUtils</sys_name><sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package><sys_policy>read</sys_policy><sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope><sys_update_name>sys_script_include_a48fae178314c7907bfa9470ceaad35d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-22 16:18:00</sys_updated_on></sys_script_include></record_update>]]></payload>
+        <payload_hash>-1049612174</payload_hash>
+        <record_name>NowflixUtils</record_name>
+        <reverted_from/>
+        <source>3af895de830c03107bfa9470ceaad34c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 16:18:00</sys_created_on>
+        <sys_id>a01743d383d4c7907bfa9470ceaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19db5fbf0d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 16:18:00</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>201743d321d4c790ba6fc2f54e9abad7</update_guid>
+        <update_guid_history>201743d321d4c790ba6fc2f54e9abad7:-1049612174,bc35b6d3b454c790a6a05ac69fea2693:1000169747,a1a3fe131a54c790e86b921cae213373:2098104781,653332df4c14c7901a42e8cf21874a7b:862525422,72b03e9b2114c790e813aa8b5b517f4b:1628100068,66bfaa1b6314c7909ae6a43b281d1cf3:167143383,62af2a1bfe14c7908c690081aeaf00ba:-1767159603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 16:19:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>04a25bcb93de48a2802657f2656e1de4</sys_id>
+        <sys_metadata>a48fae178314c7907bfa9470ceaad35d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowflixUtils</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_scope_delete display_value="">5a0d0f8877194032a268994f34a790e4</sys_scope_delete>
+        <sys_update_name>sys_script_include_a48fae178314c7907bfa9470ceaad35d</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a48fae178314c7907bfa9470ceaad35d">a01743d383d4c7907bfa9470ceaad3d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 16:19:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
