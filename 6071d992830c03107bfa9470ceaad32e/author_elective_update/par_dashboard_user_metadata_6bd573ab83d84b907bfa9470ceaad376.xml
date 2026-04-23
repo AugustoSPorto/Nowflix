@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <background_color>--now-color_background--secondar</background_color>
+        <cache_expiration_time>24</cache_expiration_time>
+        <card_bg_image/>
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_on>2026-04-23 14:20:57</created_on>
+        <dashboard display_value="Media Dashboard">abd5bb6b83d84b907bfa9470ceaad306</dashboard>
+        <edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1776955521858"}</edit_locked>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>true</include_custom_insights>
+        <include_key_contributors>true</include_key_contributors>
+        <include_kpi_signals>true</include_kpi_signals>
+        <include_predictive_target>true</include_predictive_target>
+        <include_predictive_thresholds>true</include_predictive_thresholds>
+        <include_process_mining>true</include_process_mining>
+        <include_severity>true</include_severity>
+        <include_target>true</include_target>
+        <include_thresholds>true</include_thresholds>
+        <include_trends>true</include_trends>
+        <include_widget_notification>true</include_widget_notification>
+        <last_updated_on>2026-04-23 14:52:25</last_updated_on>
+        <po_project_id_list>[]</po_project_id_list>
+        <refresh_information>true</refresh_information>
+        <refresh_interval>10</refresh_interval>
+        <requested_by_user/>
+        <schedule_repetition>true</schedule_repetition>
+        <show_insights_panel>true</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 14:20:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bd573ab83d84b907bfa9470ceaad376</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_6bd573ab83d84b907bfa9470ceaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 14:52:25</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>par_dashboard_user_metadata_6bd573ab83d84b907bfa9470ceaad376</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color>--now-color_background--secondar</background_color><cache_expiration_time>24</cache_expiration_time><card_bg_image/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2026-04-23 14:20:57</created_on><dashboard display_value="Media Dashboard">abd5bb6b83d84b907bfa9470ceaad306</dashboard><edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1776955521858"}</edit_locked><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_updated_on>2026-04-23 14:52:25</last_updated_on><po_project_id_list>[]</po_project_id_list><refresh_information>true</refresh_information><refresh_interval>10</refresh_interval><requested_by_user/><schedule_repetition>true</schedule_repetition><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-23 14:20:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bd573ab83d84b907bfa9470ceaad376</sys_id><sys_mod_count>40</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package><sys_policy/><sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope><sys_update_name>par_dashboard_user_metadata_6bd573ab83d84b907bfa9470ceaad376</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-23 14:52:25</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>-348501501</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3af895de830c03107bfa9470ceaad34c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 14:52:25</sys_created_on>
+        <sys_id>681d7f6b831c4b907bfa9470ceaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dbad3f0f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 14:52:25</sys_updated_on>
+        <type>PAR Dashboard Metadata</type>
+        <update_guid>e41d7f6bd71c4b90d63122834c09420f</update_guid>
+        <update_guid_history>e41d7f6bd71c4b90d63122834c09420f:-348501501,6e9bb3a7b51c4b90aedffb34ecbf26f5:2096607782,957bbf67971c4b9094f9ecc9d25a8442:-1160486806,597bbf67571c4b9012ef90b502f20f3a:-706278333,464b3b67f51c4b90dadbc6b5eb4b4d3f:-1103129314,ae3bb7677c1c4b9015b098768dfb112d:-218354,623bb7674d1c4b90803503856938fe26:-945392539,d13bbf27ff1c4b9001e019f7a7327535:-1103129314,cd2bb367f21c4b90df36810e2db6789c:-208319008,052b7367851c4b90994506e0b0f19eb5:-1734409125,f42bbf27471c4b90ae60be426edafcb1:-1103129314,331b7367121c4b902dd0b180b20e3ca8:-423971869,faca3727d71c4b90c9e87166a66ae35b:1921758619,4f4a37e3fc1c4b902e8df20e61206822:-926547810,034a37e32c1c4b903b231acb364e791b:346127389,c24a3fa3a11c4b90d682b64482e23b65:-1605705255,ad4af3e3831c4b90f9d021d2bf89212d:-2001620487,dbf97ba3461c4b9032239a70ce544849:-1834364512,6499fb63751c4b909e9e362d49928f6f:1170528063,e499fb63191c4b9039bca6c82fb88667:-919550902,cc99fb636f1c4b90c997638f111c5b27:1566443295,9f89bb63981c4b90177578042e7ab54a:-323217925,38893b63ce1c4b90ab067f704337b8d3:2004729504,b06937637a1c4b90c93dccca8876cade:387359927,fc69f723921c4b90ccbe8acd7cc94b79:1989376251,d8693363491c4b900f0880dd2704402a:-2017946149,08693763551c4b90a5ac6de033792f75:1143677538,3b393363ee1c4b902b57028090188a1d:-1490226520,cf297f23e31c4b905de795675fca8e9e:1253825733,08293f23411c4b9020de3bd74010bc18:-2099800927,88293f231d1c4b90c87fd47d0da92b10:-945901125,974833ef9fd84b907fd2c3d5c2e1d4fb:-535468733,a3d7b3afdfd84b90fbf811ad66ebf52b:408414189,27d7b3af4ad84b90f1f8a9b1a7fd6223:-945993359,b0d733af15d84b9021d289c139abf6e1:-22574396,b9b77f6fa5d84b906ada3909024b8911:1355445187,f8973b6f8bd84b9043f390d7f35dedfe:-269241055,82d6b32f9dd84b9011e0e29ef7e18360:-228945713,06d6b32f83d84b90c30225a6432bfd58:1100172251,79a6fbebdcd84b909be2d0c13e955947:902103745,63d573ab41d84b90b3a0183198ff3d7c:-1894095971</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">da2d33ab831c4b907bfa9470ceaad360</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 14:52:48</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>08d9b92f577a490084c30a0761bc4000</sys_id>
+        <sys_metadata>6bd573ab83d84b907bfa9470ceaad376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_scope_delete display_value="">5a0d0f8877194032a268994f34a790e4</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_6bd573ab83d84b907bfa9470ceaad376</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_6bd573ab83d84b907bfa9470ceaad376">681d7f6b831c4b907bfa9470ceaad310</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 14:52:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>Movies Registered</name>
+        <properties>{"filterConfigurations":[],"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"align-center-outline","iconStyle":"no-background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"componentId":"3zy5x9to","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"singleColor","values":[{"color":"59d95dc9d7500200b96d45a3ce61039b","iconColor":"59d95dc9d7500200b96d45a3ce61039b","metric":"ZEdGaWJHVjRYekU1TmpBMU56SmZibTkzWm14cGVGOXRaV1JwWVRFM056WTVOakUyT1RjNU1qWT0xNzc2OTYxNjk5NDQ3","rules":[]}]},"headerTitle":"Movies on Catalog","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Media","sourceType":"table","tableOrViewName":"x_1960572_nowflix_media","filterQuery":"type=movie","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5NjA1NzJfbm93ZmxpeF9tZWRpYTE3NzY5NjE2OTc5MjY=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4XzE5NjA1NzJfbm93ZmxpeF9tZWRpYTE3NzY5NjE2OTc5MjY=","id":"ZEdGaWJHVjRYekU1TmpBMU56SmZibTkzWm14cGVGOXRaV1JwWVRFM056WTVOakUyT1RjNU1qWT0xNzc2OTYxNjk5NDQ3","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"id":"colorConfig","value":{"type":"singleColor","values":[{"color":"59d95dc9d7500200b96d45a3ce61039b","iconColor":"59d95dc9d7500200b96d45a3ce61039b","metric":"ZEdGaWJHVjRYekU1TmpBMU56SmZibTkzWm14cGVGOXRaV1JwWVRFM056WTVOakUyT1RjNU1qWT0xNzc2OTYxNjk5NDQ3","rules":[]}]},"propLabel":"Colors"}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 16:28:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed13dcb383dc4b907bfa9470ceaad3dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Movies Registered</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>par_visualization_ed13dcb383dc4b907bfa9470ceaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 17:28:02</sys_updated_on>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">7bd573ab83d84b907bfa9470ceaad38e</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"filterConfigurations":[],"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"clock-outline","iconStyle":"no-background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"componentId":"bbarn7l1","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","iconColor":"","metric":"ZEdGaWJHVjBZWE5yWDNOc1lURTNOelk1TlRJME1qZ3hNamc9MTc3Njk1MjQzMDUxOA==","rules":[]}]},"headerTitle":"Average SLA Review","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Task SLA","sourceType":"table","tableOrViewName":"task_sla","filterQuery":"sla=466c7753839cc7907bfa9470ceaad399","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV0YXNrX3NsYTE3NzY5NTI0MjgxMjg=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV0YXNrX3NsYTE3NzY5NTI0MjgxMjg=","id":"ZEdGaWJHVjBZWE5yWDNOc1lURTNOelk1TlRJME1qZ3hNamc9MTc3Njk1MjQzMDUxOA==","aggregateFunction":"AVG","axisId":"primary","aggregateField":"business_duration","durationFormat":{"customFormat":false}}],"chartInteractionAction":"goToData","id":"showBorder","value":true,"noDebounce":true,"propLabel":"Show border"}</component_props>
+        <h>8</h>
+        <name>Review SLA</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 14:31:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb4833ef83d84b907bfa9470ceaad3b3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Review SLA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_update_name>par_dashboard_widget_cb4833ef83d84b907bfa9470ceaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 14:38:57</sys_updated_on>
+        <visualization/>
+        <w>17</w>
+        <widget_props/>
+        <x>0</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>par_dashboard_widget_cb4833ef83d84b907bfa9470ceaad3b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">7bd573ab83d84b907bfa9470ceaad38e</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"filterConfigurations":[],"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"clock-outline","iconStyle":"no-background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"componentId":"bbarn7l1","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"singleColor","values":[{"color":"0c2b2cd75b712110e5ba6e8a1d81c7ba","iconColor":"","metric":"ZEdGaWJHVjBZWE5yWDNOc1lURTNOelk1TlRJME1qZ3hNamc9MTc3Njk1MjQzMDUxOA==","rules":[]}]},"headerTitle":"Average SLA Review","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Task SLA","sourceType":"table","tableOrViewName":"task_sla","filterQuery":"sla=466c7753839cc7907bfa9470ceaad399","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV0YXNrX3NsYTE3NzY5NTI0MjgxMjg=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV0YXNrX3NsYTE3NzY5NTI0MjgxMjg=","id":"ZEdGaWJHVjBZWE5yWDNOc1lURTNOelk1TlRJME1qZ3hNamc9MTc3Njk1MjQzMDUxOA==","aggregateFunction":"AVG","axisId":"primary","aggregateField":"business_duration","durationFormat":{"customFormat":false}}],"chartInteractionAction":"goToData","id":"showBorder","value":true,"noDebounce":true,"propLabel":"Show border"}</component_props><h>8</h><name>Review SLA</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-23 14:31:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cb4833ef83d84b907bfa9470ceaad3b3</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Review SLA</sys_name><sys_overrides/><sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package><sys_policy/><sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope><sys_update_name>par_dashboard_widget_cb4833ef83d84b907bfa9470ceaad3b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-23 14:38:57</sys_updated_on><visualization/><w>17</w><widget_props/><x>0</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>874641666</payload_hash>
+        <record_name>Review SLA</record_name>
+        <reverted_from/>
+        <source>3af895de830c03107bfa9470ceaad34c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 14:38:57</sys_created_on>
+        <sys_id>d3f97ba3831c4b907bfa9470ceaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dbac79dad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 14:38:57</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>53f97ba3d11c4b905e8b4c2a908d8d35</update_guid>
+        <update_guid_history>53f97ba3d11c4b905e8b4c2a908d8d35:874641666,c8693763901c4b9019bb9f5a1a986458:-1547760766,37393363981c4b907499731f1500640d:-140962348,034833efb5d84b90cb021d42468a70b6:1750736718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Review SLA">b6ca3727831c4b907bfa9470ceaad345</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 14:42:27</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>25d1632a222c4accabc8005139398e89</sys_id>
+        <sys_metadata>cb4833ef83d84b907bfa9470ceaad3b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review SLA</sys_name>
+        <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
+        <sys_scope_delete display_value="">5a0d0f8877194032a268994f34a790e4</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_cb4833ef83d84b907bfa9470ceaad3b3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_cb4833ef83d84b907bfa9470ceaad3b3">d3f97ba3831c4b907bfa9470ceaad336</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 14:42:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
