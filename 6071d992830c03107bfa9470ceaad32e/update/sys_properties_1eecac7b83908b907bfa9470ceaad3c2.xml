@@ -6,7 +6,7 @@
         <is_private>false</is_private>
         <name>com.glideapp.home.deprecate_homepages</name>
         <read_roles/>
-        <suffix/>
+        <suffix>com.glideapp.home.deprecate_homepages</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-23 18:21:26</sys_created_on>

@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3676000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1036043000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27800</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>suggestion_lifecycle</internal_name>
-        <label_cache>[{"name":"Created_1.current.type","label":"Trigger - Record Created➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1960572_nowflix_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"missing":false,"selected":false,"rawLabel":"-- None --","reference":false,"image":"","value":""},{"used":false,"label":"Movie","missing":false,"selected":false,"rawLabel":"Movie","reference":false,"image":"","value":"Movie","parameters":{"name":"x_1960572_nowflix_suggestion","dependent_values":[""]}},{"used":false,"label":"Series","missing":false,"selected":false,"rawLabel":"Series","reference":false,"image":"","value":"Series","parameters":{"name":"x_1960572_nowflix_suggestion","dependent_values":[""]}}],"usedInstances":{"db0419e9-16d9-4985-8ce3-f17b62f0f67c":["type"]}},{"name":"Created_1.current.release_year","label":"Trigger - Record Created➛Suggestion Record➛Release Year","reference":"","reference_display":"Release Year","type":"string","base_type":"string","parent_table_name":"x_1960572_nowflix_suggestion","column_name":"release_year","usedInstances":{"db0419e9-16d9-4985-8ce3-f17b62f0f67c":["release_year"]}},{"name":"Created_1.current.title","label":"Trigger - Record Created➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1960572_nowflix_suggestion","column_name":"title","usedInstances":{"db0419e9-16d9-4985-8ce3-f17b62f0f67c":["title"]}},{"name":"b1af1548-c618-4671-a9cb-247827be1398.record","label":"8 - Update Record➛Suggestion Record","reference":"x_1960572_nowflix_suggestion","reference_display":"Suggestion Record","type":"reference","base_type":"reference","usedInstances":{"175f8497-7a12-4810-81f6-b913ba9b54ae":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.media","label":"Trigger - Record Created➛Review Record➛Media","reference":"x_1960572_nowflix_media","reference_display":"Media","type":"reference","base_type":"reference","parent_table_name":"x_1960572_nowflix_review","column_name":"media","usedInstances":{"2c7e83d2-a56c-4edc-9786-89d6e43c9d89":["media"]}},{"name":"b1af1548-c618-4671-a9cb-247827be1398.record.media","label":"8 - Update Record➛Suggestion Record➛Media","reference":"x_1960572_nowflix_media","reference_display":"Media","type":"reference","base_type":"reference","parent_table_name":"x_1960572_nowflix_review","column_name":"media","usedInstances":{"2c7e83d2-a56c-4edc-9786-89d6e43c9d89":["media"]}},{"name":"121a6af5-d6c2-48f6-b063-2cbf5845c240.record.media","label":"1 - Update Record➛Suggestion Record➛Media","reference":"x_1960572_nowflix_media","reference_display":"Media","type":"reference","base_type":"reference","parent_table_name":"x_1960572_nowflix_review","column_name":"media","usedInstances":{"2c7e83d2-a56c-4edc-9786-89d6e43c9d89":["media"]}},{"name":"0730f1db-6247-4316-88bf-b1414d6703b2.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"c1000af1-6e5d-449f-ba88-c230a2d498ff":["condition"],"f5a0ee05-43af-43b6-bde8-bad5b41657a9":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.9542ddd2830c03107bfa9470ceaad3e3}}","label":"Nowflix Moderators","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"0730f1db-6247-4316-88bf-b1414d6703b2":["approval_conditions"]}},{"name":"{{static.e657019e838803107bfa9470ceaad37a}}","label":"Nowflix Moderator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"0730f1db-6247-4316-88bf-b1414d6703b2":["approval_conditions"]}},{"name":"121a6af5-d6c2-48f6-b063-2cbf5845c240.record","label":"1 - Update Record➛Suggestion Record","reference":"x_1960572_nowflix_suggestion","reference_display":"Suggestion Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Suggestion Record","reference":"x_1960572_nowflix_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{"121a6af5-d6c2-48f6-b063-2cbf5845c240":["record"],"0730f1db-6247-4316-88bf-b1414d6703b2":["record"],"b1af1548-c618-4671-a9cb-247827be1398":["record"],"ec7d4705-3bf9-47bf-9023-7aab2cb2858d":["record"],"9a6ad3ea-e46f-4c3f-b7ee-654c25db424f":["record"],"d2346dae-3e69-4eb1-a5e9-aa751e49b381":["record"],"2ba264f8-8ef9-4f31-b37e-5f27a6bf2a47":["record"],"14b4fb65-b554-459a-a2cb-b2595c3573f9":["record"],"175f8497-7a12-4810-81f6-b913ba9b54ae":["record"],"4158b0ec-1e35-4509-afc0-1a52b607e468":["record"],"0f7c40dc-1a8d-4d2f-aea9-cf79dd39310d":["record"],"30410b24-e5f1-41d0-b3bd-5d8ec8f1d33c":["conditions"],"8ce87d2d-3363-47dd-97e8-0b1b02fcee25":["conditions"],"cbf0ed3f-aa19-43e2-84e9-851751bdd244":["record"]},"attributes":{}},{"name":"Created_1.current.rating","label":"Trigger - Record Created➛Review Record➛Rating","reference":"","reference_display":"Rating","type":"choice","base_type":"choice","parent_table_name":"x_1960572_nowflix_review","column_name":"rating","choices":[{"label":"-- None --","used":false,"missing":false,"selected":false,"rawLabel":"-- None --","reference":false,"image":"","value":""},{"used":false,"label":"1","missing":false,"selected":false,"rawLabel":"1","reference":false,"image":"","value":"1","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"2","missing":false,"selected":false,"rawLabel":"2","reference":false,"image":"","value":"2","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"3","missing":false,"selected":false,"rawLabel":"3","reference":false,"image":"","value":"3","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"4","missing":false,"selected":false,"rawLabel":"4","reference":false,"image":"","value":"4","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"5","missing":false,"selected":false,"rawLabel":"5","reference":false,"image":"","value":"5","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"6","missing":false,"selected":false,"rawLabel":"6","reference":false,"image":"","value":"6","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"7","missing":false,"selected":false,"rawLabel":"7","reference":false,"image":"","value":"7","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"8","missing":false,"selected":false,"rawLabel":"8","reference":false,"image":"","value":"8","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"9","missing":false,"selected":false,"rawLabel":"9","reference":false,"image":"","value":"9","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"10","missing":false,"selected":false,"rawLabel":"10","reference":false,"image":"","value":"10","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}}],"usedInstances":{"de0d1682-530f-4b2f-ba04-a2cbea21042e":["condition"],"39e5ece9-b46a-4f31-b26b-d829662c45d7":["condition"]}},{"name":"{{static.a30219d2830c03107bfa9470ceaad33f}}","label":"Nowflix Administrators","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9a6ad3ea-e46f-4c3f-b7ee-654c25db424f":["approval_conditions"],"0730f1db-6247-4316-88bf-b1414d6703b2":["approval_conditions"]}},{"name":"9a6ad3ea-e46f-4c3f-b7ee-654c25db424f.approval_state","label":"10 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f547247b-28bc-4020-813d-f37e7d04eb9b":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"9a6ad3ea-e46f-4c3f-b7ee-654c25db424f.approval_state","label":"10 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f547247b-28bc-4020-813d-f37e7d04eb9b":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.a30219d2830c03107bfa9470ceaad33f}}","label":"Nowflix Administrators","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9a6ad3ea-e46f-4c3f-b7ee-654c25db424f":["approval_conditions"],"0730f1db-6247-4316-88bf-b1414d6703b2":["approval_conditions"]}},{"name":"Created_1.current.rating","label":"Trigger - Record Created➛Review Record➛Rating","reference":"","reference_display":"Rating","type":"choice","base_type":"choice","parent_table_name":"x_1960572_nowflix_review","column_name":"rating","choices":[{"label":"-- None --","used":false,"missing":false,"selected":false,"rawLabel":"-- None --","reference":false,"image":"","value":""},{"used":false,"label":"1","missing":false,"selected":false,"rawLabel":"1","reference":false,"image":"","value":"1","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"2","missing":false,"selected":false,"rawLabel":"2","reference":false,"image":"","value":"2","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"3","missing":false,"selected":false,"rawLabel":"3","reference":false,"image":"","value":"3","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"4","missing":false,"selected":false,"rawLabel":"4","reference":false,"image":"","value":"4","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"5","missing":false,"selected":false,"rawLabel":"5","reference":false,"image":"","value":"5","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"6","missing":false,"selected":false,"rawLabel":"6","reference":false,"image":"","value":"6","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"7","missing":false,"selected":false,"rawLabel":"7","reference":false,"image":"","value":"7","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"8","missing":false,"selected":false,"rawLabel":"8","reference":false,"image":"","value":"8","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"9","missing":false,"selected":false,"rawLabel":"9","reference":false,"image":"","value":"9","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}},{"used":false,"label":"10","missing":false,"selected":false,"rawLabel":"10","reference":false,"image":"","value":"10","parameters":{"name":"x_1960572_nowflix_review","dependent_values":[""]}}],"usedInstances":{"de0d1682-530f-4b2f-ba04-a2cbea21042e":["condition"],"39e5ece9-b46a-4f31-b26b-d829662c45d7":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Suggestion Record","reference":"x_1960572_nowflix_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{"121a6af5-d6c2-48f6-b063-2cbf5845c240":["record"],"0730f1db-6247-4316-88bf-b1414d6703b2":["record"],"b1af1548-c618-4671-a9cb-247827be1398":["record"],"ec7d4705-3bf9-47bf-9023-7aab2cb2858d":["record"],"9a6ad3ea-e46f-4c3f-b7ee-654c25db424f":["record"],"d2346dae-3e69-4eb1-a5e9-aa751e49b381":["record"],"2ba264f8-8ef9-4f31-b37e-5f27a6bf2a47":["record"],"14b4fb65-b554-459a-a2cb-b2595c3573f9":["record"],"175f8497-7a12-4810-81f6-b913ba9b54ae":["record"],"4158b0ec-1e35-4509-afc0-1a52b607e468":["record"],"0f7c40dc-1a8d-4d2f-aea9-cf79dd39310d":["record"],"30410b24-e5f1-41d0-b3bd-5d8ec8f1d33c":["conditions"],"8ce87d2d-3363-47dd-97e8-0b1b02fcee25":["conditions"],"cbf0ed3f-aa19-43e2-84e9-851751bdd244":["record"]},"attributes":{}},{"name":"121a6af5-d6c2-48f6-b063-2cbf5845c240.record","label":"1 - Update Record➛Suggestion Record","reference":"x_1960572_nowflix_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.e657019e838803107bfa9470ceaad37a}}","label":"Nowflix Moderator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"0730f1db-6247-4316-88bf-b1414d6703b2":["approval_conditions"]}},{"name":"{{static.9542ddd2830c03107bfa9470ceaad3e3}}","label":"Nowflix Moderators","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"0730f1db-6247-4316-88bf-b1414d6703b2":["approval_conditions"]}},{"name":"0730f1db-6247-4316-88bf-b1414d6703b2.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"c1000af1-6e5d-449f-ba88-c230a2d498ff":["condition"],"f5a0ee05-43af-43b6-bde8-bad5b41657a9":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"121a6af5-d6c2-48f6-b063-2cbf5845c240.record.media","label":"1 - Update Record➛Suggestion Record➛Media","reference":"x_1960572_nowflix_media","reference_display":"Media","type":"reference","base_type":"reference","parent_table_name":"x_1960572_nowflix_review","column_name":"media","usedInstances":{"2c7e83d2-a56c-4edc-9786-89d6e43c9d89":["media"]}},{"name":"b1af1548-c618-4671-a9cb-247827be1398.record.media","label":"8 - Update Record➛Suggestion Record➛Media","reference":"x_1960572_nowflix_media","reference_display":"Media","type":"reference","base_type":"reference","parent_table_name":"x_1960572_nowflix_review","column_name":"media","usedInstances":{"2c7e83d2-a56c-4edc-9786-89d6e43c9d89":["media"]}},{"name":"Created_1.current.media","label":"Trigger - Record Created➛Review Record➛Media","reference":"x_1960572_nowflix_media","reference_display":"Media","type":"reference","base_type":"reference","parent_table_name":"x_1960572_nowflix_review","column_name":"media","usedInstances":{"2c7e83d2-a56c-4edc-9786-89d6e43c9d89":["media"]}},{"name":"b1af1548-c618-4671-a9cb-247827be1398.record","label":"8 - Update Record➛Suggestion Record","reference":"x_1960572_nowflix_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{"175f8497-7a12-4810-81f6-b913ba9b54ae":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.title","label":"Trigger - Record Created➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1960572_nowflix_suggestion","column_name":"title","usedInstances":{"db0419e9-16d9-4985-8ce3-f17b62f0f67c":["title"]}},{"name":"Created_1.current.release_year","label":"Trigger - Record Created➛Suggestion Record➛Release Year","reference":"","reference_display":"Release Year","type":"string","base_type":"string","parent_table_name":"x_1960572_nowflix_suggestion","column_name":"release_year","usedInstances":{"db0419e9-16d9-4985-8ce3-f17b62f0f67c":["release_year"]}},{"name":"Created_1.current.type","label":"Trigger - Record Created➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1960572_nowflix_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"missing":false,"selected":false,"rawLabel":"-- None --","reference":false,"image":"","value":""},{"used":false,"label":"Movie","missing":false,"selected":false,"rawLabel":"Movie","reference":false,"image":"","value":"Movie","parameters":{"name":"x_1960572_nowflix_suggestion","dependent_values":[""]}},{"used":false,"label":"Series","missing":false,"selected":false,"rawLabel":"Series","reference":false,"image":"","value":"Series","parameters":{"name":"x_1960572_nowflix_suggestion","dependent_values":[""]}}],"usedInstances":{"db0419e9-16d9-4985-8ce3-f17b62f0f67c":["type"]}}]</label_cache>
         <master_snapshot>5ed4f7c5835c87507bfa9470ceaad386</master_snapshot>
         <master_snapshot_digest/>
         <name>Suggestion Lifecycle</name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>19ed2f49831c87507bfa9470ceaad348</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Suggestion Lifecycle</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1960572_nowflix">6071d992830c03107bfa9470ceaad32e</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_update_name>sys_hub_flow_19ed2f49831c87507bfa9470ceaad348</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-16 13:36:15</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:44</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -85,14 +85,14 @@
         <identifier>19ed2f49831c87507bfa9470ceaad348</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-15 20:22:37</sys_created_on>
-        <sys_id>6bebbf85839c87507bfa9470ceaad39d</sys_id>
+        <sys_created_on>2026-04-27 19:08:44</sys_created_on>
+        <sys_id>de1e1dc9836cc3d07bfa9470ceaad37e</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:22:37</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:44</sys_updated_on>
         <trigger display_value="">22d43bc5835c87507bfa9470ceaad30a</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=19ed2f49831c87507bfa9470ceaad348^sys_idNOT IN6bebbf85839c87507bfa9470ceaad39d"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=19ed2f49831c87507bfa9470ceaad348^sys_idNOT INde1e1dc9836cc3d07bfa9470ceaad37e"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=19ed2f49831c87507bfa9470ceaad348"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=19ed2f49831c87507bfa9470ceaad348^sys_idNOT IN11ed2f49831c87507bfa9470ceaad34a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -513,10 +513,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-15 19:21:19</sys_created_on>
         <sys_id>21ed2f49831c87507bfa9470ceaad3ba</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-16 13:36:14</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:41</sys_updated_on>
         <ui_id>0ec5025f-2440-43eb-a881-71b04b0a1c1c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -540,10 +540,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-15 19:21:19</sys_created_on>
         <sys_id>eded2f49831c87507bfa9470ceaad39d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-16 13:36:14</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:41</sys_updated_on>
         <ui_id>f5a0ee05-43af-43b6-bde8-bad5b41657a9</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UXW/TMBT9K1Oe08j5aNr1BVWgSUjApG3aC0yRY9+0BscOttOuVP3vXOejq1gHCO2Rt/rcr3Nuzu0+0K1rWmfv9NJasVLB4vNDGAjlMfy9DxStIVgETCsunNCq6IAw2FDZ+sANfAXmgF+Uu4slr4V6g0EubCPp7v53OWwtJDcwTGyowb4OTLDY/xJyuwYKSUuQ2OrWGaFWWC44vipCq/iSxSxN8jQhJJlncZmnZZzwlAJNMW8sfDsKuPjQIeGLyvw8xO04SRvuacUkDODRgeKAoysqLYRBTRWnTpvdETFA+bWST8BaKIftAp/8aMUP7J1Mpz6xAtTIoA8en8WwvB5may0YXDeeYI84WsqhhmnZ1upTr8OvHSraSjeuHZHWYj9oPGnPYqBU3a719mYceCVUJ3AISs2oPL6owzWUrQPrPwxIqLFRUdOmweUUjdEb0RUjlzpaSXxEldRbHOrdFFHmiUe4IxpdIf6ug++pEV7FR2yDxT3NklrBis552M4ZlHDo1lJ8bz2hXuAgpei3gQmWGdG4Jc7ZwMD6ED637Ylj93syS0kV83KSJ9lskqVxPpnPy2pSxlmc8XxG0jKJkBuqo7Kwjjo4HL60hKToyt7Kz03+Wm1f4y4u6bSaxmR6/i6y/NxdnLmIl48h+cMx+M/3l7dACPl/DKfHIGzRm3rQ1g3/51t48MbvJ9jeNxyYsEjkzmPvx396H9ihAQQ7hbbafPMSnrDDT0qt/vYzBgAA</values>
@@ -664,7 +664,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5ed4f7c5835c87507bfa9470ceaad386</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -672,7 +672,7 @@
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:22:37</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:43</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -756,14 +756,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-15 19:51:40</sys_created_on>
         <sys_id>5ad4f7c5835c87507bfa9470ceaad38a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:22:36</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -840,14 +840,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-15 19:51:40</sys_created_on>
         <sys_id>d2d4f7c5835c87507bfa9470ceaad3a0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:22:36</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1098,10 +1098,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-15 19:51:41</sys_created_on>
         <sys_id>12d4f7c5835c87507bfa9470ceaad3b5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:22:37</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:43</sys_updated_on>
         <ui_id>0ec5025f-2440-43eb-a881-71b04b0a1c1c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1125,10 +1125,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-15 19:51:41</sys_created_on>
         <sys_id>5ad4f7c5835c87507bfa9470ceaad3b2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Nowflix">6071d992830c03107bfa9470ceaad32e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:22:37</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:43</sys_updated_on>
         <ui_id>f5a0ee05-43af-43b6-bde8-bad5b41657a9</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnWaAkW3Z8KQwHAQqkDZAEubSBsCIpmy1FqiJlxzX8711K8gON+wiaY2/m7GtmtQNviWlc1Tj7YGbWyoUm009PAZHaY/h7SzSUgkwJM5pLJ43OWiAgK1CND9yJL4I5wS/yzcWMl1K/wyCXtlKwefxdDltKxWvRT6ygxr5O1GS6/SkkObYoKBTRJYtYEqdJTGk8GUZ5muRRzBMQkGBDBblQmDrfU724aZHglxrcpvK4dbXUi/5903e534Om5p5VRAMinp3QXCCfApQVASlBc3Cm3hyQWgC/1eoILKV22I745Gcrv+PAeDTyiYVAiUx0wcMz63fXwcUVOEAqDXNN3aeypZFM2G45XBTQKDc/xbqE28pL7Uoc5GpfbVRT6o/dRsihwf5TIdJYJCEqr9RT73UU90uzvtuzvJa63UofVIaBOrzA4e7yxnk+WyKUKLFRVkJV4UazqjYr2RYjlzJcKHyEhTJrHOovMATmiYe4WAivEb9q4UeopVfxAdtgcUczBytZ1l4rtsM1CbILiN3YuQJrjyJxu9m3xlPsJPfism4/voTVsnIznLwSvY5d8PL4T+5+u6XjhBYRzwdpPBwPhkmUDiaTvBjk0TAa8nRMkzwOkS3qBZVZB07sdp8bShO87c4QL63yVm1f565LGBWjiI7Ou2uYnnPXGV+90lLxHyzlv+dfOopS+t9S/2wpabPOCL22dvgbOurJ26ebedg1kxapPXjs/f5fxwc2eFySnUJrU3/1oo7Y7gfTCmqHvwYAAA==</values>
@@ -1228,17 +1228,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e6d43bc5835c87507bfa9470ceaad30d","name":"plan","plan_signature":null}}</plan>
         <plan_id>19ed2f49831c87507bfa9470ceaad348</plan_id>
-        <snapshot>1e0cf3c5839c87507bfa9470ceaad30f</snapshot>
+        <snapshot>5ed4f7c5835c87507bfa9470ceaad386</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-15 19:51:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e6d43bc5835c87507bfa9470ceaad30d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:22:37</sys_updated_on>
+        <sys_updated_on>2026-04-27 19:08:44</sys_updated_on>
         <trigger display_value="">22d43bc5835c87507bfa9470ceaad30a</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=19ed2f49831c87507bfa9470ceaad348"/>
